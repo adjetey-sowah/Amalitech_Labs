@@ -6,14 +6,13 @@
  */
 
 import java.util.Arrays;
-
+import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        int[] grades = {2, 20, 21, 22, 23, 30, 48, 49, 50, 55, 60, 65, 72, 63, 76, 80, 68, 90, 85, 98
-        };
+        int[] grades = {2, 20, 21, 22, 23, 30, 48, 49, 50, 55, 60, 65, 72, 63, 76, 80, 68, 90, 85, 98};
 
         System.out.println("The max grade in the list is :"+ maxGrade(grades));
         System.out.println();
@@ -28,6 +27,14 @@ public class Main {
         drawGraph(grades);
     }
 
+
+    protected static  int  mainMenu(){
+        System.out.println("STATISTICS OF GRADES");
+        System.out.println("----------------------");
+
+        System.out.println("Enter the number of students in the class: ");
+
+    }
     protected static int maxGrade(int[] grades) {
         int max = grades[0];
         for (int i = 1; i < grades.length; i++) {
