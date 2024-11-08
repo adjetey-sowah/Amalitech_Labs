@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Statistics of Grade.iml" filepath="$PROJECT_DIR$/Statistics of Grade.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Amalitech_Labs.iml" filepath="$PROJECT_DIR$/Amalitech_Labs.iml" />
+>>>>>>> 15bc637e51e58f1a5315d5e9d6a7020c2a7e1478
     </modules>
   </component>
 </project>
